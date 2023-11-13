@@ -1,0 +1,14 @@
+{
+  "Authentication": {
+    "Domain": "/*EXAMPLE ONLY*/",
+    "Audience": "https://blue-cat-back-end",
+    "ClientId": "/*EXAMPLE ONLY*/"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
