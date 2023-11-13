@@ -14,7 +14,7 @@ app.UseEndpoints(endpoints =>
     endpoints.MapControllers();
 });
 var builder = WebApplication.CreateBuilder(args);
-var domain = $"https://{builder.Configuration["/*EXAMPLE ONLY*/"]}/";
+var domain = $"https://{builder.Configuration["dev-weiieuwbsve2knh3.us.auth0.com"]}/";
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 .AddJwtBearer(options =>
 {
